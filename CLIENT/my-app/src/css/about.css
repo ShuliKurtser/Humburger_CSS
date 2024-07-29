@@ -1,0 +1,50 @@
+.about{
+    padding: 4rem 9%;
+    margin-top: 8rem;
+}
+.about-content {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+    
+    
+}
+
+.about-box {
+    padding-top: 2rem;
+}
+
+.about-box h3 {
+    color:  crimson;
+    font-size: 3rem;
+}
+
+.about-box p {
+    color: #000;
+    font-size: 1rem;
+    word-wrap: normal;
+}
+
+.about-box img {
+    width: 100%;
+    height: auto;
+    animation: icon 5s ease-in;
+}
+
+.about-inner {
+    padding-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+}
+
+.about-inner h5 {
+    flex: 1 1 16rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.about-inner i {
+    padding-right: .5rem;
+    color:  crimson;
+}
+

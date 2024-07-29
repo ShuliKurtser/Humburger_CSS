@@ -1,0 +1,101 @@
+.blog{
+    padding: 4rem 9%;
+    margin-top: 8rem;
+} 
+ .h4 {
+    margin: 0 0 1rem 30rem;
+    width: 40%;
+    font-size: 4rem;
+    color: var(--clr3);
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    letter-spacing: .2rem;
+    background: yellow;
+} 
+ .p {
+    color: var(--clr2);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    line-height: 2.5rem;
+    justify-content: flex-start;
+} 
+.btn {
+    margin-top: 2rem;
+    padding: 1.3rem 4rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    letter-spacing: .1rem;
+    font-weight: 500;
+    color: #000;
+    background-color: yellow;
+    border: none;
+    border-radius: .8rem 3rem .8rem 3rem;
+    box-shadow: 0rem 2rem 2rem rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+} 
+
+.btn:hover {
+    background-color: yellow;
+    box-shadow: 0px .2rem 2rem rgba(255, 85, 94, 0.4);
+    color:red;
+    transform: translateY(-1rem);
+}
+
+.btn:active {
+    transform: translateY(-.1rem);
+}
+
+.blog-inner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.blog-content {
+    position: relative;
+    background:  #fff;;
+}
+  
+.im {
+    height: 20rem;
+    position: relative;
+}
+
+.im img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.in-blog-icon {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-between;
+    background:  rgb(241, 245, 236);
+}
+
+.in-blog-icon a {
+    font-size:0.7rem;
+    color:  crimson;
+    text-transform: capitalize;
+}
+
+.in-blog-icon i {
+    padding-right:0.5rem;
+    color:  crimson;
+}
+
+.in-blog-content {
+    text-align: center;
+    padding: 2.5rem;
+    background: #eee;
+}
+
+.in-blog-content h2,
+.in-blog-content p {
+    color: #000;
+}

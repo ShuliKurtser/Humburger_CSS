@@ -1,0 +1,75 @@
+.contact{
+    
+    padding: 4rem 9%;
+    margin-top: 8rem;
+}
+.contact-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-inner-col {
+    margin: 2rem;
+    flex: 1 1 20rem;
+    text-align: center;
+}
+
+.contact-inner-col .images {
+    border: 1px solid #fff;
+}
+
+.contact-inner-col img {
+    width: 90%;
+    height: auto;
+    margin: 1.5rem;
+    padding: 1rem;
+    flex: 1 1 21rem;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+}
+
+.contact-inner-col h1 {
+    padding: 1rem 0;
+    color: rgb(241, 245, 236);
+    font-size: 3rem;
+    letter-spacing: .1rem;
+    text-transform: capitalize;
+}
+
+.social i {
+    padding: 1rem;
+    background: rgb(241, 245, 236);
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.social i:hover {
+    transition: 0.5s ease;
+    transform: translateY(-2rem);
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact-inner-col p {
+    padding: .5rem 0;
+    line-height: 1.5rem;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: gray;
+}
+
+.contact-inner-col input,
+.contact-inner-col textarea {
+    width: 80%;
+    padding: 1rem;
+    margin-bottom: 1.2rem;
+    border: none;
+    border: .3rem solid rgb(254, 254, 57);
+}
+
+.contact-inner-col textarea {
+    resize: none;
+}
+

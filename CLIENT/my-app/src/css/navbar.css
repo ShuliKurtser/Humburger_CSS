@@ -1,0 +1,52 @@
+
+.head {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background:rgb(254, 254, 57);
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.head .logo {
+    font-size: 2.5rem;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+
+.span {
+    color:crimson;
+    font-size: 2.5rem;
+}
+
+.head .navbar {
+    font-size: 1.8rem;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.head .navbar a {
+    padding-left: 1.5rem;
+    color: #000;
+    text-decoration: none;
+}
+
+#menu-bar {
+    display: none;
+}
+
+.fa-hamburger {
+    animation: rotate 1s ease infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(360deg);
+    }
+}

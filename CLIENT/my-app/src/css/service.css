@@ -1,0 +1,31 @@
+.service{
+
+    padding: 4rem 9%;
+    margin-top: 8rem;
+}
+.service .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-gap: 2rem;
+
+}
+
+.service .container .b-container {
+    padding: 4rem 2.5rem;
+    text-align: center;
+    background: crimson;
+}
+
+.service .container .b-container i {
+    background:  crimson;
+    padding: 3rem;
+    border-radius: 5rem;
+    font-size: 3rem;
+}
+
+.service .container .b-container .h2 {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    /* color:  crimson; */
+    color:rgb(241, 245, 236);
+}
